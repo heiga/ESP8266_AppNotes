@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Mar 17 17:37:15 2017
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : ECE492_g7_2017w_WAT
+Top-level Entity Name : ECE492_g7_2017w_WAT
+Family : Cyclone IV E
+Total logic elements : 3,797
+    Total combinational functions : 3,171
+    Dedicated logic registers : 2,141
+Total registers : 2141
+Total pins : 87
+Total virtual pins : 0
+Total memory bits : 154,624
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

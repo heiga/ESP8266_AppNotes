@@ -1,0 +1,376 @@
+17:39:00 **** Incremental Build of configuration Nios II for project WAT_TEST ****
+make all 
+Info: Building ../WAT_TEST_bsp/
+C:/scratchdir/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../WAT_TEST_bsp/
+Compiling alt_alarm_start.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_alarm_start.o HAL/src/alt_alarm_start.c
+Compiling alt_busy_sleep.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_busy_sleep.o HAL/src/alt_busy_sleep.c
+Compiling alt_close.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_close.o HAL/src/alt_close.c
+Compiling alt_dcache_flush.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush.o HAL/src/alt_dcache_flush.c
+Compiling alt_dcache_flush_all.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush_all.o HAL/src/alt_dcache_flush_all.c
+Compiling alt_dcache_flush_no_writeback.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush_no_writeback.o HAL/src/alt_dcache_flush_no_writeback.c
+Compiling alt_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dev.o HAL/src/alt_dev.c
+Compiling alt_dma_rxchan_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dma_rxchan_open.o HAL/src/alt_dma_rxchan_open.c
+Compiling alt_dma_txchan_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dma_txchan_open.o HAL/src/alt_dma_txchan_open.c
+Compiling alt_ecc_fatal_exception.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_ecc_fatal_exception.o HAL/src/alt_ecc_fatal_exception.c
+Compiling alt_exception_entry.S...
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_entry.o HAL/src/alt_exception_entry.S
+Compiling alt_exit.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_exit.o HAL/src/alt_exit.c
+Compiling alt_fcntl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fcntl.o HAL/src/alt_fcntl.c
+Compiling alt_fd_lock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fd_lock.o HAL/src/alt_fd_lock.c
+Compiling alt_fd_unlock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fd_unlock.o HAL/src/alt_fd_unlock.c
+Compiling alt_find_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_find_dev.o HAL/src/alt_find_dev.c
+Compiling alt_find_file.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_find_file.o HAL/src/alt_find_file.c
+Compiling alt_flash_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_flash_dev.o HAL/src/alt_flash_dev.c
+Compiling alt_fs_reg.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fs_reg.o HAL/src/alt_fs_reg.c
+Compiling alt_fstat.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fstat.o HAL/src/alt_fstat.c
+Compiling alt_get_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_get_fd.o HAL/src/alt_get_fd.c
+Compiling alt_gmon.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_gmon.o HAL/src/alt_gmon.c
+Compiling alt_icache_flush.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_icache_flush.o HAL/src/alt_icache_flush.c
+Compiling alt_icache_flush_all.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_icache_flush_all.o HAL/src/alt_icache_flush_all.c
+Compiling alt_iic.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_iic.o HAL/src/alt_iic.c
+Compiling alt_iic_isr_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_iic_isr_register.o HAL/src/alt_iic_isr_register.c
+Compiling alt_instruction_exception_entry.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_instruction_exception_entry.o HAL/src/alt_instruction_exception_entry.c
+Compiling alt_instruction_exception_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_instruction_exception_register.o HAL/src/alt_instruction_exception_register.c
+Compiling alt_io_redirect.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_io_redirect.o HAL/src/alt_io_redirect.c
+Compiling alt_ioctl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_ioctl.o HAL/src/alt_ioctl.c
+Compiling alt_irq_entry.S...
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/alt_irq_entry.o HAL/src/alt_irq_entry.S
+Compiling alt_irq_handler.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_handler.o HAL/src/alt_irq_handler.c
+Compiling alt_irq_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_register.o HAL/src/alt_irq_register.c
+Compiling alt_irq_vars.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_vars.o HAL/src/alt_irq_vars.c
+Compiling alt_isatty.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_isatty.o HAL/src/alt_isatty.c
+Compiling alt_lseek.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_lseek.o HAL/src/alt_lseek.c
+Compiling alt_main.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_main.o HAL/src/alt_main.c
+Compiling alt_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_open.o HAL/src/alt_open.c
+Compiling alt_read.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_read.o HAL/src/alt_read.c
+Compiling alt_release_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_release_fd.o HAL/src/alt_release_fd.c
+Compiling alt_remap_cached.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_remap_cached.o HAL/src/alt_remap_cached.c
+Compiling alt_remap_uncached.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_remap_uncached.o HAL/src/alt_remap_uncached.c
+Compiling alt_sbrk.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_sbrk.o HAL/src/alt_sbrk.c
+Compiling alt_software_exception.S...
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/alt_software_exception.o HAL/src/alt_software_exception.S
+Compiling alt_tick.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_tick.o HAL/src/alt_tick.c
+Compiling alt_uncached_free.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_uncached_free.o HAL/src/alt_uncached_free.c
+Compiling alt_uncached_malloc.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_uncached_malloc.o HAL/src/alt_uncached_malloc.c
+Compiling alt_usleep.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_usleep.o HAL/src/alt_usleep.c
+Compiling alt_write.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_write.o HAL/src/alt_write.c
+Compiling altera_nios2_gen2_irq.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/altera_nios2_gen2_irq.o HAL/src/altera_nios2_gen2_irq.c
+Compiling crt0.S...
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/crt0.o HAL/src/crt0.S
+Compiling os_cpu_a.S...
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/os_cpu_a.o HAL/src/os_cpu_a.S
+Compiling os_cpu_c.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/os_cpu_c.o HAL/src/os_cpu_c.c
+Compiling alt_env_lock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/alt_env_lock.o UCOSII/src/alt_env_lock.c
+Compiling alt_malloc_lock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/alt_malloc_lock.o UCOSII/src/alt_malloc_lock.c
+Compiling os_core.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_core.o UCOSII/src/os_core.c
+Compiling os_dbg.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_dbg.o UCOSII/src/os_dbg.c
+Compiling os_flag.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_flag.o UCOSII/src/os_flag.c
+Compiling os_mbox.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_mbox.o UCOSII/src/os_mbox.c
+Compiling os_mem.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_mem.o UCOSII/src/os_mem.c
+Compiling os_mutex.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_mutex.o UCOSII/src/os_mutex.c
+Compiling os_q.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_q.o UCOSII/src/os_q.c
+Compiling os_sem.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_sem.o UCOSII/src/os_sem.c
+Compiling os_task.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_task.o UCOSII/src/os_task.c
+Compiling os_time.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_time.o UCOSII/src/os_time.c
+Compiling os_tmr.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/UCOSII/src/os_tmr.o UCOSII/src/os_tmr.c
+Compiling alt_sys_init.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/alt_sys_init.o alt_sys_init.c
+Compiling altera_avalon_jtag_uart_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_fd.o drivers/src/altera_avalon_jtag_uart_fd.c
+Compiling altera_avalon_jtag_uart_init.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_init.o drivers/src/altera_avalon_jtag_uart_init.c
+Compiling altera_avalon_jtag_uart_ioctl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o drivers/src/altera_avalon_jtag_uart_ioctl.c
+Compiling altera_avalon_jtag_uart_read.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_read.o drivers/src/altera_avalon_jtag_uart_read.c
+Compiling altera_avalon_jtag_uart_write.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_write.o drivers/src/altera_avalon_jtag_uart_write.c
+Compiling altera_avalon_sysid_qsys.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_sysid_qsys.o drivers/src/altera_avalon_sysid_qsys.c
+Compiling altera_avalon_timer_sc.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_timer_sc.o drivers/src/altera_avalon_timer_sc.c
+Compiling altera_avalon_timer_ts.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_timer_ts.o drivers/src/altera_avalon_timer_ts.c
+Compiling altera_avalon_timer_vars.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_timer_vars.o drivers/src/altera_avalon_timer_vars.c
+Compiling altera_avalon_uart_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_uart_fd.o drivers/src/altera_avalon_uart_fd.c
+Compiling altera_avalon_uart_init.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_uart_init.o drivers/src/altera_avalon_uart_init.c
+Compiling altera_avalon_uart_ioctl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_uart_ioctl.o drivers/src/altera_avalon_uart_ioctl.c
+Compiling altera_avalon_uart_read.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_uart_read.o drivers/src/altera_avalon_uart_read.c
+Compiling altera_avalon_uart_write.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_uart_write.o drivers/src/altera_avalon_uart_write.c
+Compiling altera_hostfs.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_hostfs.o drivers/src/altera_hostfs.c
+Compiling fifoed_avalon_uart.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/fifoed_avalon_uart.o drivers/src/fifoed_avalon_uart.c
+Compiling fifoed_avalon_uart_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/fifoed_avalon_uart_fd.o drivers/src/fifoed_avalon_uart_fd.c
+Creating libucosii_bsp.a...
+rm -f -f libucosii_bsp.a
+nios2-elf-ar -src libucosii_bsp.a obj/HAL/src/alt_alarm_start.o obj/HAL/src/alt_busy_sleep.o obj/HAL/src/alt_close.o obj/HAL/src/alt_dcache_flush.o obj/HAL/src/alt_dcache_flush_all.o obj/HAL/src/alt_dcache_flush_no_writeback.o obj/HAL/src/alt_dev.o obj/HAL/src/alt_dev_llist_insert.o obj/HAL/src/alt_dma_rxchan_open.o obj/HAL/src/alt_dma_txchan_open.o obj/HAL/src/alt_do_ctors.o obj/HAL/src/alt_do_dtors.o obj/HAL/src/alt_ecc_fatal_entry.o obj/HAL/src/alt_ecc_fatal_exception.o obj/HAL/src/alt_environ.o obj/HAL/src/alt_errno.o obj/HAL/src/alt_exception_entry.o obj/HAL/src/alt_exception_muldiv.o obj/HAL/src/alt_exception_trap.o obj/HAL/src/alt_execve.o obj/HAL/src/alt_exit.o obj/HAL/src/alt_fcntl.o obj/HAL/src/alt_fd_lock.o obj/HAL/src/alt_fd_unlock.o obj/HAL/src/alt_find_dev.o obj/HAL/src/alt_find_file.o obj/HAL/src/alt_flash_dev.o obj/HAL/src/alt_fork.o obj/HAL/src/alt_fs_reg.o obj/HAL/src/alt_fstat.o obj/HAL/src/alt_get_fd.o obj/HAL/src/alt_getchar.o obj/HAL/src/alt_getpid.o obj/HAL/src/alt_gettod.o obj/HAL/src/alt_gmon.o obj/HAL/src/alt_icache_flush.o obj/HAL/src/alt_icache_flush_all.o obj/HAL/src/alt_iic.o obj/HAL/src/alt_iic_isr_register.o obj/HAL/src/alt_instruction_exception_entry.o obj/HAL/src/alt_instruction_exception_register.o obj/HAL/src/alt_io_redirect.o obj/HAL/src/alt_ioctl.o obj/HAL/src/alt_irq_entry.o obj/HAL/src/alt_irq_handler.o obj/HAL/src/alt_irq_register.o obj/HAL/src/alt_irq_vars.o obj/HAL/src/alt_isatty.o obj/HAL/src/alt_kill.o obj/HAL/src/alt_link.o obj/HAL/src/alt_load.o obj/HAL/src/alt_log_macro.o obj/HAL/src/alt_log_printf.o obj/HAL/src/alt_lseek.o obj/HAL/src/alt_main.o obj/HAL/src/alt_mcount.o obj/HAL/src/alt_open.o obj/HAL/src/alt_printf.o obj/HAL/src/alt_putchar.o obj/HAL/src/alt_putcharbuf.o obj/HAL/src/alt_putstr.o obj/HAL/src/alt_read.o obj/HAL/src/alt_release_fd.o obj/HAL/src/alt_remap_cached.o obj/HAL/src/alt_remap_uncached.o obj/HAL/src/alt_rename.o obj/HAL/src/alt_sbrk.o obj/HAL/src/alt_settod.o obj/HAL/src/alt_software_exception.o obj/HAL/src/alt_stat.o obj/HAL/src/alt_tick.o obj/HAL/src/alt_times.o obj/HAL/src/alt_uncached_free.o obj/HAL/src/alt_uncached_malloc.o obj/HAL/src/alt_unlink.o obj/HAL/src/alt_usleep.o obj/HAL/src/alt_wait.o obj/HAL/src/alt_write.o obj/HAL/src/altera_nios2_gen2_irq.o obj/HAL/src/crt0.o obj/HAL/src/os_cpu_a.o obj/HAL/src/os_cpu_c.o obj/UCOSII/src/alt_env_lock.o obj/UCOSII/src/alt_malloc_lock.o obj/UCOSII/src/os_core.o obj/UCOSII/src/os_dbg.o obj/UCOSII/src/os_flag.o obj/UCOSII/src/os_mbox.o obj/UCOSII/src/os_mem.o obj/UCOSII/src/os_mutex.o obj/UCOSII/src/os_q.o obj/UCOSII/src/os_sem.o obj/UCOSII/src/os_task.o obj/UCOSII/src/os_time.o obj/UCOSII/src/os_tmr.o obj/alt_sys_init.o obj/drivers/src/altera_avalon_epcs_flash_controller.o obj/drivers/src/altera_avalon_jtag_uart_fd.o obj/drivers/src/altera_avalon_jtag_uart_init.o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o obj/drivers/src/altera_avalon_jtag_uart_read.o obj/drivers/src/altera_avalon_jtag_uart_write.o obj/drivers/src/altera_avalon_spi.o obj/drivers/src/altera_avalon_sysid_qsys.o obj/drivers/src/altera_avalon_timer_sc.o obj/drivers/src/altera_avalon_timer_ts.o obj/drivers/src/altera_avalon_timer_vars.o obj/drivers/src/altera_avalon_uart_fd.o obj/drivers/src/altera_avalon_uart_init.o obj/drivers/src/altera_avalon_uart_ioctl.o obj/drivers/src/altera_avalon_uart_read.o obj/drivers/src/altera_avalon_uart_write.o obj/drivers/src/altera_hostfs.o obj/drivers/src/epcs_commands.o obj/drivers/src/fifoed_avalon_uart.o obj/drivers/src/fifoed_avalon_uart_fd.o
+[BSP build complete]
+Info: Compiling camera_test.c to obj/default/camera_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../WAT_TEST_bsp//UCOSII/inc -I../WAT_TEST_bsp//HAL/inc -I../WAT_TEST_bsp/ -I../WAT_TEST_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/camera_test.o camera_test.c
+In file included from ../WAT_TEST_bsp//HAL/inc/sys/alt_irq.h:52:0,
+                 from ../WAT_TEST_bsp//HAL/inc/os_cpu.h:59,
+                 from ../WAT_TEST_bsp//HAL/inc/includes.h:21,
+                 from camera_test.h:16,
+                 from camera_test.c:8:
+camera_test.c: In function 'camera_test':
+../WAT_TEST_bsp/system.h:313:25: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ #define GREEN_LEDS_BASE 0x100a0c0
+                         ^
+camera_test.c:20:19: note: in expansion of macro 'GREEN_LEDS_BASE'
+  uint32_t *leds = GREEN_LEDS_BASE;
+                   ^
+camera_test.c:75:15: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   cam_reply = (uint8_t)OSQAccept(camCommandQueue, &err);
+               ^
+camera_test.c:80:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     cam_reply = (uint8_t)OSQPend(camCommandQueue, 0, &err);
+                 ^
+camera_test.c:118:23: warning: passing argument 1 of 'cam_send_command' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if(!cam_send_command(CAM_INIT, CAM_ACK_INIT, CAM_COMMAND_LENGTH, camCommandQueue)){
+                       ^
+In file included from camera_test.c:8:0:
+camera_test.h:23:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'const uint8_t * {aka const unsigned char *}'
+ bool cam_send_command(uint8_t* to_send, uint8_t* to_recieve, uint16_t size, OS_EVENT* used_queue);
+      ^
+camera_test.c:118:33: warning: passing argument 2 of 'cam_send_command' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if(!cam_send_command(CAM_INIT, CAM_ACK_INIT, CAM_COMMAND_LENGTH, camCommandQueue)){
+                                 ^
+In file included from camera_test.c:8:0:
+camera_test.h:23:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'const uint8_t * {aka const unsigned char *}'
+ bool cam_send_command(uint8_t* to_send, uint8_t* to_recieve, uint16_t size, OS_EVENT* used_queue);
+      ^
+camera_test.c:124:23: warning: passing argument 1 of 'cam_send_command' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if(!cam_send_command(CAM_SIZE, CAM_ACK_SIZE, CAM_COMMAND_LENGTH, camCommandQueue)){
+                       ^
+In file included from camera_test.c:8:0:
+camera_test.h:23:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'const uint8_t * {aka const unsigned char *}'
+ bool cam_send_command(uint8_t* to_send, uint8_t* to_recieve, uint16_t size, OS_EVENT* used_queue);
+      ^
+camera_test.c:124:33: warning: passing argument 2 of 'cam_send_command' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if(!cam_send_command(CAM_SIZE, CAM_ACK_SIZE, CAM_COMMAND_LENGTH, camCommandQueue)){
+                                 ^
+In file included from camera_test.c:8:0:
+camera_test.h:23:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'const uint8_t * {aka const unsigned char *}'
+ bool cam_send_command(uint8_t* to_send, uint8_t* to_recieve, uint16_t size, OS_EVENT* used_queue);
+      ^
+camera_test.c:130:23: warning: passing argument 1 of 'cam_send_command' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if(!cam_send_command(CAM_SNAP, CAM_ACK_SNAP, CAM_COMMAND_LENGTH, camCommandQueue)){
+                       ^
+In file included from camera_test.c:8:0:
+camera_test.h:23:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'const uint8_t * {aka const unsigned char *}'
+ bool cam_send_command(uint8_t* to_send, uint8_t* to_recieve, uint16_t size, OS_EVENT* used_queue);
+      ^
+camera_test.c:130:33: warning: passing argument 2 of 'cam_send_command' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if(!cam_send_command(CAM_SNAP, CAM_ACK_SNAP, CAM_COMMAND_LENGTH, camCommandQueue)){
+                                 ^
+In file included from camera_test.c:8:0:
+camera_test.h:23:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'const uint8_t * {aka const unsigned char *}'
+ bool cam_send_command(uint8_t* to_send, uint8_t* to_recieve, uint16_t size, OS_EVENT* used_queue);
+      ^
+camera_test.c:136:23: warning: passing argument 1 of 'cam_send_command' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if(!cam_send_command(CAM_GRAB, CAM_ACK_GRAB, CAM_COMMAND_LENGTH, camCommandQueue)){
+                       ^
+In file included from camera_test.c:8:0:
+camera_test.h:23:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'const uint8_t * {aka const unsigned char *}'
+ bool cam_send_command(uint8_t* to_send, uint8_t* to_recieve, uint16_t size, OS_EVENT* used_queue);
+      ^
+camera_test.c:136:33: warning: passing argument 2 of 'cam_send_command' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if(!cam_send_command(CAM_GRAB, CAM_ACK_GRAB, CAM_COMMAND_LENGTH, camCommandQueue)){
+                                 ^
+In file included from camera_test.c:8:0:
+camera_test.h:23:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'const uint8_t * {aka const unsigned char *}'
+ bool cam_send_command(uint8_t* to_send, uint8_t* to_recieve, uint16_t size, OS_EVENT* used_queue);
+      ^
+camera_test.c:142:14: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  cam_reply = (uint8_t)OSQPend(camCommandQueue, 0, &err);
+              ^
+camera_test.c:146:16: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+    cam_reply = (uint8_t)OSQPend(camCommandQueue, 0, &err);
+                ^
+camera_test.c:159:15: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   cam_reply = (uint8_t)OSQPend(camCommandQueue, 0, &err);
+               ^
+camera_test.c:163:15: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   cam_reply = (uint8_t)OSQPend(camCommandQueue, 0, &err);
+               ^
+camera_test.c:164:10: warning: format '%lx' expects argument of type 'long unsigned int', but argument 2 has type 'int' [-Wformat=]
+   printf(" %lx", cam_reply);
+          ^
+camera_test.c:164:10: warning: format '%lx' expects argument of type 'long unsigned int', but argument 2 has type 'int' [-Wformat=]
+camera_test.c:167:15: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   cam_reply = (uint8_t)OSQPend(camCommandQueue, 0, &err);
+               ^
+camera_test.c:211:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     cam_reply = (uint8_t)OSQPend(camPackageQueue, MAX_TIME, &err);
+                 ^
+camera_test.c:234:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     cam_reply = (uint8_t)OSQPend(camPackageQueue, MAX_TIME, &err);
+                 ^
+camera_test.c:248:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     cam_reply = (uint8_t)OSQPend(camPackageQueue, MAX_TIME, &err);
+                 ^
+camera_test.c:265:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     cam_reply = (uint8_t)OSQPend(camPackageQueue, MAX_TIME, &err);
+                 ^
+camera_test.c:276:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("Invalid checksum, got %x expected %x\n", checksum, tempsum);
+           ^
+camera_test.c:276:11: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+camera_test.c:276:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+camera_test.c:276:11: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+camera_test.c: In function 'cam_send_command':
+camera_test.c:325:14: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  cam_reply = (uint8_t)OSQPend(used_queue, 0, &err);
+              ^
+camera_test.c:329:16: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+    cam_reply = (uint8_t)OSQPend(used_queue, 0, &err);
+                ^
+camera_test.c: In function 'cam_uart_interrupt':
+camera_test.c:353:28: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   OSQPost(camPackageQueue, (void*) read);
+                            ^
+camera_test.c:355:28: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   OSQPost(camCommandQueue, (void*) read);
+                            ^
+In file included from camera_test.c:8:0:
+camera_test.c: At top level:
+camera_test.h:80:20: warning: 'CAM_PICTURE_OUTPUT' defined but not used [-Wunused-variable]
+ static const char* CAM_PICTURE_OUTPUT = "/mnt/host/picture.jpg";
+                    ^
+camera_test.c: In function 'camera_test':
+camera_test.c:302:2: warning: 'picture' is used uninitialized in this function [-Wuninitialized]
+  fclose(picture);
+  ^
+Info: Compiling motor_test.c to obj/default/motor_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../WAT_TEST_bsp//UCOSII/inc -I../WAT_TEST_bsp//HAL/inc -I../WAT_TEST_bsp/ -I../WAT_TEST_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/motor_test.o motor_test.c
+motor_test.c: In function 'motor_test':
+motor_test.c:15:10: warning: unused variable 'err' [-Wunused-variable]
+  uint8_t err;
+          ^
+Info: Compiling wat_main_test.c to obj/default/wat_main_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../WAT_TEST_bsp//UCOSII/inc -I../WAT_TEST_bsp//HAL/inc -I../WAT_TEST_bsp/ -I../WAT_TEST_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/wat_main_test.o wat_main_test.c
+In file included from wat_main_test.c:40:0:
+camera_test.h:80:20: warning: 'CAM_PICTURE_OUTPUT' defined but not used [-Wunused-variable]
+ static const char* CAM_PICTURE_OUTPUT = "/mnt/host/picture.jpg";
+                    ^
+Info: Compiling wifi_test.c to obj/default/wifi_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../WAT_TEST_bsp//UCOSII/inc -I../WAT_TEST_bsp//HAL/inc -I../WAT_TEST_bsp/ -I../WAT_TEST_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -D__ucosii__    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/wifi_test.o wifi_test.c
+wifi_test.c: In function 'wifi_test':
+wifi_test.c:23:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+         wifiReceive = (uint8_t) OSQPend(wifiPackageQueue, 0, &err);
+                       ^
+wifi_test.c:25:9: warning: implicit declaration of function 'motorCommand' [-Wimplicit-function-declaration]
+         motorCommand(wifiReceive);
+         ^
+wifi_test.c: In function 'wifi_uart_interrupt':
+wifi_test.c:37:31: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     OSQPost(wifiPackageQueue, (void*) read);
+                               ^
+wifi_test.c: At top level:
+wifi_test.c:40:6: warning: conflicting types for 'motorCommand'
+ void motorCommand(uint8_t input) {
+      ^
+wifi_test.c:25:9: note: previous implicit declaration of 'motorCommand' was here
+         motorCommand(wifiReceive);
+         ^
+Info: Linking WAT_TEST.elf
+nios2-elf-g++  -T'../WAT_TEST_bsp//linker.x' -msys-crt0='../WAT_TEST_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../WAT_TEST_bsp/   -Wl,-Map=WAT_TEST.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o WAT_TEST.elf obj/default/camera_test.o obj/default/motor_test.o obj/default/wat_main_test.o obj/default/wifi_test.o -lm -msys-lib=m
+nios2-elf-insert WAT_TEST.elf --thread_model ucosii --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x100a100 --timestamp 1489793743 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name trolley_system --quartus_project_dir "C:/WAT/Quartus" --jdi ../..//output_files/ECE492_g7_2017w_WAT.jdi --sopcinfo C:/WAT/Quartus/software/WAT_TEST_bsp/../../trolley_system.sopcinfo
+Info: (WAT_TEST.elf) 162 KBytes program size (code + initialized data).
+Info:                8030 KBytes free for stack + heap.
+Info: Creating WAT_TEST.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source WAT_TEST.elf >WAT_TEST.objdump
+[WAT_TEST build complete]
+17:39:18 **** Build of configuration Nios II for project WAT_TEST ****
+make all 
+Info: Building ../WAT_TEST_bsp/
+C:/scratchdir/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../WAT_TEST_bsp/
+[BSP build complete]
+[WAT_TEST build complete]
+17:39:20 **** Incremental Build of configuration Nios II for project WAT_TEST ****
+make all 
+Info: Building ../WAT_TEST_bsp/
+C:/scratchdir/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../WAT_TEST_bsp/
+[BSP build complete]
+[WAT_TEST build complete]
+17:39:34 **** Build of configuration Nios II for project WAT_TEST ****
+make all 
+Info: Building ../WAT_TEST_bsp/
+C:/scratchdir/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../WAT_TEST_bsp/
+[BSP build complete]
+[WAT_TEST build complete]
+17:39:43 **** Incremental Build of configuration Nios II for project WAT_TEST ****
+make all 
+Info: Building ../WAT_TEST_bsp/
+C:/scratchdir/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../WAT_TEST_bsp/
+[BSP build complete]
+[WAT_TEST build complete]
